@@ -1,0 +1,5 @@
+target/*
+!target/cucumber-report.html
+*.log
+.idea/
+*.iml

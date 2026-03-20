@@ -5,7 +5,6 @@
     <test name="Device1">
         <parameter name="deviceName" value="device1"/>
         <parameter name="udid" value="c606eb5bbbfa"/>
-<!--        <parameter name="systemPort" value="8203"/>-->
         <parameter name="port" value="4723"/>
         <classes>
             <class name="runner.TestRunner"/>
@@ -15,7 +14,6 @@
     <test name="Device2">
         <parameter name="deviceName" value="device2"/>
         <parameter name="udid" value="HUUCHUSS7TAQ89EU"/>
-<!--        <parameter name="systemPort" value="8204"/>-->
         <parameter name="port" value="4725"/>
         <classes>
             <class name="runner.TestRunner"/>

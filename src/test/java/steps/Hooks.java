@@ -10,12 +10,14 @@ public class Hooks extends BaseTest {
     @Before
     public void setUp() throws Exception {
         // Call BaseTest setup manually with default values
-        setup("AndroidDevice", "c606eb5bbbfa", "8202", "4723");
+        setup("AndroidDevice", "c606eb5bbbfa", "8203", "4723");
     }
 
     @After
     public void tearDown() {
-        DriverManager.quitDriver();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
 }

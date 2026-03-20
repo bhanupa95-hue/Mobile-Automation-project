@@ -30,10 +30,6 @@ public class LoginSteps extends BaseTest {
     public void verifyResults() {
         System.out.println("Results displayed");
     }
-//    @And("user clears search field")
-//    public void clearSearch() {
-//       page.clearSearch();
-//    }
 
     @And("user closes the application")
     public void closeApp() {

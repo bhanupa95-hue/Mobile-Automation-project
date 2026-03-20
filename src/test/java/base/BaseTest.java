@@ -18,8 +18,6 @@ public class BaseTest {
         caps.setCapability("deviceName", deviceName);
         caps.setCapability("udid", udid);
         caps.setCapability("automationName", "UiAutomator2");
-
-        // Using default app (Settings)
         caps.setCapability("appPackage", "com.android.settings");
         caps.setCapability("appActivity", "com.android.settings.MainSettings");
         caps.setCapability("systemPort", 8200 + (int)(Thread.currentThread().getId() % 1000));
